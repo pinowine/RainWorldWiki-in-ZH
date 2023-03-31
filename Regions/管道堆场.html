@@ -1,0 +1,1344 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <title>regionname</title>
+    <link rel="stylesheet" href="../wiki.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <style>
+        body {
+            background-image: url("../../WikiImagePack/otherimg/otherimg/Slugs.png");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            color:rgb(226, 232, 238);
+        }
+    </style>
+</head>
+
+<body>
+    <div style="background-color: rgba(0, 0, 0, 0.8);margin: 1rem;padding: 4rem;border-radius: 1rem;border: 1px solid;border-color: rgba(250,250,250,0.2);">
+        
+        <div id="regiontitle">管道堆场</div>
+
+        <div id="wikiinfo">
+            <div style="display: inline-block;margin: 0.5rem;">
+                <div style="font-weight: bold;padding-top: 5px;padding-bottom: 5px;">本文翻译自：<a href="https://rainworld.miraheze.org/wiki/Rain_World_Wiki">官方雨世界维基(Official Rain World Wiki)</a></div>
+                <div style="padding-bottom: 5px;padding-top: 5px;">原文条目：<a href="https://rainworld.miraheze.org/wiki/Pipeyard">Rain World Wiki-Regions-Pipeyard</a></div>
+                <div style="padding-bottom: 5px;padding-top: 5px;">本文遵守：<a href="https://creativecommons.org/licenses/by-sa/4.0/">CC协议4.0</a></div>
+            </div>
+        </div>
+
+        <div id="firstcontainer">
+            <div id="textpart">
+                <div><b>管道堆场</b>(Pipeyard)是一个由各种隧道 (tunnels) 、管道 (pipes) 和被淹没的洞穴 (flooded caves) 组成的区域，表层附近有开放空间。它是几个地区的连接点。</div>
+                <div id="indexbox">
+                    <div style="text-align: center;font-size: 1rem;">目录</div>
+                    <ol class="main">
+                        <li>1 概述</li>
+                        <li>2 生物</li>
+                        <li>3 注意点</li>
+                        <li>4 子区域</li>
+                        <ol class="sub"> 
+                            <li>4.1 污水坑道</li>
+                            <li>4.2 安德鲁的地下室</li>
+                        </ol>
+                        <li>5 画廊</li>
+                        <li>6 竞技场模式的解锁要素</li>
+                        <li>7 趣闻</li>
+                        <li>8 地图</li>
+                        <ol class="sub">
+                            <li>8.1 图形化地图</li>
+                            <li>8.2 互动地图</li>
+                        </ol>
+                    </ol>
+                </div>
+                <div class="blocktitle">概述</div>
+                <div>管道堆场是去往垃圾堆的另一个选择，有额外的区域连接。它的敌人一般都比较常规，因此更容易学习它的机制，但它的许多路径都是单向的，而且该地区有很多蜈蚣出没，这使得它成为 <img src="../../WikiImagePack/slugcats/slugcats/Survivor head 24x.png" class="inlineicon"> 求生者和 <img src="../../WikiImagePack/slugcats/Monk head 24x.png" class="inlineicon"> 僧侣的旅途中少数有 <img src="../../WikiImagePack/creatures/Adult Centipede icon.png" class="inlineicon"> 成体蜈蚣 (Centipede(Adult)) 的地点之一。</div>
+            </div>
+            <div id="regionbox">
+                <div class="region">
+                    <h1 id="regionname">"管道堆场"</h1>
+                    <img id="regionimage" src="../WikiImagePack/regionart/RW VS region art.png">
+                </div>
+                <div>
+                    <h1>信息</h1>
+                    <table class="regioninfo">
+                        <tr style="height: 30px;">
+                            <td>区域代号</td>
+                            <td>VS</td>
+                        </tr>
+                        <tr style="height: 185px;">
+                            <td style="width: 10em;">连接 (业力要求) </td>
+                            <td id="connection">
+                                <div>
+                                    <img class="regionicon" src="../../WikiImagePack/otherimg/regionicon/Industrial Complex Safari Icon.png">
+                                    <span>工业区</span>
+                                    <img class="carmaicon" src="../../WikiImagePack/otherimg/karma/RW Karma 2 icon.png">
+                                </div>
+                                <div>
+                                    <img class="regionicon" src="../../WikiImagePack/otherimg/regionicon/Shoreline Safari Icon.png">
+                                    <span>海岸线</span>
+                                    <img class="carmaicon" src="../../WikiImagePack/otherimg/karma/RW Karma 3 icon.png">
+                                </div>
+                                <div>
+                                    <img class="regionicon" src="../../WikiImagePack/otherimg/regionicon/Subterranean Safari Icon.png">
+                                    <span>地下</span>
+                                    <img class="carmaicon" src="../../WikiImagePack/otherimg/karma/RW Karma 5 icon.png">
+                                </div>
+                                <div>
+                                    <img class="regionicon" src="../../WikiImagePack/otherimg/regionicon/Sky Islands Safari Icon.png">
+                                    <span>天空群岛</span>
+                                    <img class="carmaicon" src="../../WikiImagePack/otherimg/karma/RW Karma 4 icon.png">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr style="height: 40px;">
+                            <td>子区域</td>
+                            <td id="subregions">
+                                污水坑道<br/>
+                                安德鲁的地下室
+                            </td>
+                        </tr>
+                        <tr style="height: 30px;">
+                            <td>房间 (屏幕) </td>
+                            <td id="rooms">72(171)</td>
+                        </tr>
+                        <tr style="height: 30px;">
+                            <td>避难所</td>
+                            <td id="shelters">9</td>
+                        </tr>
+                        <tr style="display: none;">
+                            <td>威胁音乐</td>
+                            <td>
+                                <audio controls>
+                                    <source id="threatmusic" type="audio/mpeg">
+                                    您的浏览器不支持audio元素。
+                                </audio>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div calss="regiondetails">
+                    <h1>详情 (剧透) [<span href="#" class="spoiler-toggle">↓</span>]</h1>           
+                    <table class="detailstable">
+                        <tr style="height: 30px;">
+                            <td>彩色珍珠</td>
+                            <td id="coloredpearls">紫罗兰色珍珠</td>
+                        </tr>
+                        <tr style="height: 30px;">
+                            <td style="width: 10em;">拾荒者收费站/贮藏室</td>
+                            <td id="scavengertolls">1个贮藏室，或更多？</td>
+                        </tr>
+                        <tr style="height: 30px;">
+                            <td>回响</td>
+                            <td id="echoes">无</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div id="creatures" class="container">
+            <div class="blocktitle">生物</div>
+            <div id="creaturebox">
+                <table id="creatureinfo">
+
+                    <tr>
+                        <td class="tabletitle">管道堆场</td>
+                        <td class="tabletitle">生物</td>
+                    </tr>
+                
+                    <tr>
+                        <td class="sluginfo">
+                            <div>
+                                <img src="../../WikiImagePack/otherimg/slugcats/Slugcat head.png">
+                            </div>
+                            <div>所有</div>
+                        </td>
+                        <td class="td-container">
+                            <table class="creatureinner">
+                                <tr>
+                                    <div class="boxline">
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Batfly icon.png">
+                                            </div>
+                                            <div>
+                                                蝠蝇
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Vulture icon.png">
+                                            </div>
+                                            <div>
+                                                秃鹫
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Scavenger icon.png">
+                                            </div>
+                                            <div>
+                                                拾荒者
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Black Lizard icon.png">
+                                            </div>
+                                            <div>
+                                                黑蜥蜴
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Adult Centipede icon.png">
+                                            </div>
+                                            <div>
+                                                成体蜈蚣
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Infant Centipede icon.png">
+                                            </div>
+                                            <div>
+                                                幼体蜈蚣
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Monster Kelp icon.png">
+                                            </div>
+                                            <div>
+                                                红树
+                                            </div>
+                                        </div>
+                                    </div>
+                                </tr>
+                                <tr>
+                                    <td class="td-inner">
+                                        <div>前雨循环*</div> 
+                                    </td>
+                                    <td class="boxline">
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Salamander icon.png">
+                                            </div>
+                                            <div>
+                                                蝾螈
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Eel Lizard icon.png">
+                                            </div>
+                                            <div>
+                                                鳗鱼蜥蜴
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Monster Kelp icon.png">
+                                            </div>
+                                            <div>
+                                                红树
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Eggbug icon.png">
+                                            </div>
+                                            <div>
+                                                蛋虫
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td class="sluginfo">
+                            <div>
+                                <img src="../../WikiImagePack/otherimg/slugcats/Monk head 24x.png">
+                            </div>
+                            <div>僧侣</div>
+                        </td>
+                        <td class="td-container">
+                            <table class="creatureinner">
+                                <tr>
+                                    <div class="boxline">
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Pink Lizard icon.png">
+                                            </div>
+                                            <div>
+                                                粉蜥蜴
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Salamander icon.png">
+                                            </div>
+                                            <div>
+                                                蝾螈
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Eel Lizard icon.png">
+                                            </div>
+                                            <div>
+                                                鳗鱼蜥蜴
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Pole Plant icon.png">
+                                            </div>
+                                            <div>
+                                                拟态草
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Jetfish icon.png">
+                                            </div>
+                                            <div>
+                                                鲑鱼
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Squidcada icon.png">
+                                            </div>
+                                            <div>
+                                                蝉乌贼
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Snail icon.png">
+                                            </div>
+                                            <div>
+                                                波动龟
+                                            </div>
+                                        </div>
+                                    </div>
+                                </tr>
+                                <tr>
+                                    <td class="td-inner">
+                                        <div>族系</div>
+                                    </td>
+                                    <td class="boxline">
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Cyan Lizard icon.png">
+                                            </div>
+                                            <div>
+                                                青蜥蜴
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Caramel Lizard icon.png">
+                                            </div>
+                                            <div>
+                                                焦糖蜥蜴
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Yellow Lizard icon.png">
+                                            </div>
+                                            <div>
+                                                金蜥蜴
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Strawberry Lizard icon.png">
+                                            </div>
+                                            <div>
+                                                草莓蜥蜴
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Blue Lizard icon.png">
+                                            </div>
+                                            <div>
+                                                蓝蜥蜴
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td class="sluginfo">
+                            <div>
+                                <img src="../../WikiImagePack/otherimg/slugcats/Survivor head 24x.png">
+                            </div>
+                            <div>求生者</div>
+                        </td>
+                        <td class="td-container">
+                            <table class="creatureinner">
+                                <tr>
+                                    <div class="boxline">
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Pink Lizard icon.png">
+                                            </div>
+                                            <div>
+                                                粉蜥蜴
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Salamander icon.png">
+                                            </div>
+                                            <div>
+                                                蝾螈
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Eel Lizard icon.png">
+                                            </div>
+                                            <div>
+                                                鳗鱼蜥蜴
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Pole Plant icon.png">
+                                            </div>
+                                            <div>
+                                                拟态草
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Eggbug icon.png">
+                                            </div>
+                                            <div>
+                                                蛋虫
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Jetfish icon.png">
+                                            </div>
+                                            <div>
+                                                鲑鱼
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Squidcada icon.png">
+                                            </div>
+                                            <div>
+                                                蝉乌贼
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Snail icon.png">
+                                            </div>
+                                            <div>
+                                                波动龟
+                                            </div>
+                                        </div>
+                                    </div>
+                                </tr>
+                                <tr>
+                                    <td class="td-inner">
+                                        <div>族系</div>
+                                    </td>
+                                    <td class="boxline">
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Cyan Lizard icon.png">
+                                            </div>
+                                            <div>
+                                                青蜥蜴
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Caramel Lizard icon.png">
+                                            </div>
+                                            <div>
+                                                焦糖蜥蜴
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Yellow Lizard icon.png">
+                                            </div>
+                                            <div>
+                                                金蜥蜴
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Strawberry Lizard icon.png">
+                                            </div>
+                                            <div>
+                                                草莓蜥蜴
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Blue Lizard icon.png">
+                                            </div>
+                                            <div>
+                                                蓝蜥蜴
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td class="sluginfo">
+                            <div>
+                                <img src="../../WikiImagePack/otherimg/slugcats/Hunter head 24x.png">
+                            </div>
+                            <div>
+                                猎手
+                            </div>
+                            <div>
+                                <img src="../../WikiImagePack/otherimg/slugcats/Artificer head 24x.png">
+                            </div>
+                            <div>
+                                工匠
+                            </div>
+                            <div>
+                                <img src="../../WikiImagePack/otherimg/slugcats/Spearmaster head 24x.png">
+                            </div>
+                            <div>
+                                矛大师
+                            </div>
+                        </td>
+                        <td class="td-container">
+                            <table class="creatureinner">
+                                <tr>
+                                    <div class="boxline">
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/King Vulture icon.png">
+                                            </div>
+                                            <div>
+                                                魔王秃鹫
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Red Centipede icon.png">
+                                            </div>
+                                            <div>
+                                                烈焰蜈蚣
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Cyan Lizard icon.png">
+                                            </div>
+                                            <div>
+                                                青蜥蜴
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Salamander icon.png">
+                                            </div>
+                                            <div>
+                                                蝾螈
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Dropwig icon.png">
+                                            </div>
+                                            <div>
+                                                落网虫
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Pole Plant icon.png">
+                                            </div>
+                                            <div>
+                                                拟态草
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Eggbug icon.png">
+                                            </div>
+                                            <div>
+                                                蛋虫
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Jetfish icon.png">
+                                            </div>
+                                            <div>
+                                                鲑鱼
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Squidcada icon.png">
+                                            </div>
+                                            <div>
+                                                蝉乌贼
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Snail icon.png">
+                                            </div>
+                                            <div>
+                                                波动龟
+                                            </div>
+                                        </div>
+                                    </div>
+                                </tr>
+                                <tr>
+                                    <td class="td-inner">
+                                        <div>族系</div>
+                                    </td>
+                                    <td class="boxline">
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Red Lizard icon.png">
+                                            </div>
+                                            <div>
+                                                烈焰蜥蜴
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/White Lizard icon.png">
+                                            </div>
+                                            <div>
+                                                白蜥蜴
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Eel Lizard icon.png">
+                                            </div>
+                                            <div>
+                                                鳗鱼蜥蜴
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Blue Lizard icon.png">
+                                            </div>
+                                            <div>
+                                                蓝蜥蜴
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td class="sluginfo">
+                            <div>
+                                <img src="../../WikiImagePack/otherimg/slugcats/Gourmand head 24x.png">
+                            </div>
+                            <div>饕餮</div>
+                        </td>
+                        <td class="td-container">
+                            <table class="creatureinner">
+                                <tr>
+                                    <div class="boxline">
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Red Centipede icon.png">
+                                            </div>
+                                            <div>
+                                                烈焰蜈蚣
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Cyan Lizard icon.png">
+                                            </div>
+                                            <div>
+                                                青蜥蜴
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Pink Lizard icon.png">
+                                            </div>
+                                            <div>
+                                                粉蜥蜴
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Salamander icon.png">
+                                            </div>
+                                            <div>
+                                                蝾螈
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Dropwig icon.png">
+                                            </div>
+                                            <div>
+                                                落网虫
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Pole Plant icon.png">
+                                            </div>
+                                            <div>
+                                                拟态草
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Eggbug icon.png">
+                                            </div>
+                                            <div>
+                                                蛋虫
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Jetfish icon.png">
+                                            </div>
+                                            <div>
+                                                鲑鱼
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Squidcada icon.png">
+                                            </div>
+                                            <div>
+                                                蝉乌贼
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Snail icon.png">
+                                            </div>
+                                            <div>
+                                                波动龟
+                                            </div>
+                                        </div>
+                                    </div>
+                                </tr>
+                                <tr>
+                                    <td class="td-inner">
+                                        <div>族系</div>
+                                    </td>
+                                    <td class="boxline">
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Caramel Lizard icon.png">
+                                            </div>
+                                            <div>
+                                                焦糖蜥蜴
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Yellow Lizard icon.png">
+                                            </div>
+                                            <div>
+                                                金蜥蜴
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Strawberry Lizard icon.png">
+                                            </div>
+                                            <div>
+                                                草莓蜥蜴
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td class="sluginfo">
+                            <div>
+                                <img src="../../WikiImagePack/otherimg/slugcats/Rivulet head 24x.png">
+                            </div>
+                            <div>溪流</div>
+                        </td>
+                        <td class="td-container">
+                            <table class="creatureinner" style="border: none;">
+                                <tr>
+                                    <div class="boxline">
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Cyan Lizard icon.png">
+                                            </div>
+                                            <div>
+                                                青蜥蜴
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Yellow Lizard icon.png">
+                                            </div>
+                                            <div>
+                                                金蜥蜴
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Aquapede icon.png">
+                                            </div>
+                                            <div>
+                                                水蜈蚣
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Centiwing icon.png">
+                                            </div>
+                                            <div>
+                                                飞蜈蚣
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Blue Leech icon.png">
+                                            </div>
+                                            <div>
+                                                海水蛭
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Pole Plant icon.png">
+                                            </div>
+                                            <div>
+                                                拟态草
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Jetfish icon.png">
+                                            </div>
+                                            <div>
+                                                鲑鱼
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Snail icon.png">
+                                            </div>
+                                            <div>
+                                                波动龟
+                                            </div>
+                                        </div>
+                                    </div>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td class="sluginfo">
+                            <div>
+                                <img src="../../WikiImagePack/otherimg/slugcats/Saint head 24x.png">
+                            </div>
+                            <div>圣徒</div>
+                        </td>
+                        <td class="td-container">
+                            <table class="creatureinner">
+                                <tr>
+                                    <div class="boxline">
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Red Centipede icon.png">
+                                            </div>
+                                            <div>
+                                                烈焰蜈蚣
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Aquapede icon.png">
+                                            </div>
+                                            <div>
+                                                水蜈蚣
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Centiwing icon.png">
+                                            </div>
+                                            <div>
+                                                飞蜈蚣
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Cyan Lizard icon.png">
+                                            </div>
+                                            <div>
+                                                青蜥蜴
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Yellow Lizard icon.png">
+                                            </div>
+                                            <div>
+                                                金蜥蜴
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Strawberry Lizard icon.png">
+                                            </div>
+                                            <div>
+                                                草莓蜥蜴
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Spitter Spider icon.png">
+                                            </div>
+                                            <div>
+                                                烈焰狼蛛
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Big Spider icon.png">
+                                            </div>
+                                            <div>
+                                                狼蛛
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Dropwig icon.png">
+                                            </div>
+                                            <div>
+                                                落网虫
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Blue Leech icon.png">
+                                            </div>
+                                            <div>
+                                                海水蛭
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Lantern Mouse icon.png">
+                                            </div>
+                                            <div>
+                                                光鼠
+                                            </div>
+                                        </div>
+                                    </div>
+                                </tr>
+                                <tr>
+                                    <td class="td-inner">
+                                        <div>夜晚</div>
+                                    </td>
+                                    <td class="boxline">
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/creatures/Miros Vulture icon.png">
+                                            </div>
+                                            <div>
+                                                钢鹫
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td class="tabletitle"></td>
+                        <td class="tabletitle">物品</td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="sluginfo">
+                            <div>
+                                <img src="../../WikiImagePack/otherimg/slugcats/Slugcat head.png">
+                            </div>
+                            <div>所有</div>
+                        </td>
+                        <td class="td-container">
+                            <table class="creatureinner">
+                                <tr>
+                                    <div class="boxline">
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/items/Popcorn Plant icon.png" width="30%">
+                                            </div>
+                                            <div>
+                                                爆米花植物
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/items/Cherrybomb icon.png">
+                                            </div>
+                                            <div>
+                                                鞭炮草
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/items/Blue Fruit icon.png">
+                                            </div>
+                                            <div>
+                                                蓝果
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/items/Bubble Fruit icon.png">
+                                            </div>
+                                            <div>
+                                                泡水果
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/items/Batnip icon.png">
+                                            </div>
+                                            <div>
+                                                蝠蝇草
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/items/Lilypuck icon.png">
+                                            </div>
+                                            <div>
+                                                睡莲
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/items/Mushroom icon.png">
+                                            </div>
+                                            <div>
+                                                蘑菇
+                                            </div>
+                                        </div>
+                                        <div class="iconbox">
+                                            <div>
+                                                <img class="creatureicon" src="../../WikiImagePack/otherimg/coloredpearls/Icon of Pipeyard violet pearl.png">
+                                            </div>
+                                            <div>
+                                                彩色珍珠
+                                            </div>
+                                        </div>
+                                    </div>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                
+                </table>
+            </div>
+            <div style="margin-left: 1rem;margin-top: 1rem;font-size: small;">*雨循环前 (PreCycle) 在圣徒的游玩过程中不会出现。</div>
+        </div>
+        
+        <div id="interest" class="container">
+            <div class="blocktitle">注意点</div>
+            <div>
+                <ol class="interest">
+                    <li>
+                        <img src="../../WikiImagePack/otherimg/coloredpearls/Icon of Pipeyard violet pearl.png"><span> 紫罗兰色珍珠 (Violet Pearl)</span>
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+        <div id="subregions" class="container">
+            <div class="blocktitle">子区域</div>
+            <div class="subtitle">污水坑道 (Sump Tunnel)</div>
+            <div>一个可以认为是海岸线和排水系统的结合的子区域，具有前者的配色和后者的地形，通过黑暗的管道和被淹没的洞穴系统与该地区的其他地方相连。这里几乎没什么生物，只有一些波动龟和喷气鱼。</div>
+            <div class="subtitle">安德鲁的地下室 (Andrew's Basement)</div>
+            <div class="spoilerwarning">
+                <div id="spoilertitle">
+                    <img src="../../WikiImagePack/otherimg/webstuff/Slugcat no right.png">
+                    <img src="../../WikiImagePack/otherimg/webstuff/Enotspoiler.png">
+                    剧透警告：???
+                </div>
+                <div>
+                    本节包含了 ??? 主要剧情的细节。如果你还没有取得重大进展、没有完成 ??? 的游戏流程，或者没有解开他的谜语，那么就不要再读下去了!
+                </div>
+                <div class="single-square">
+                    [<span href="#" class="spoiler-toggle2">展开</span>]
+                </div>
+            </div>
+            <div class="spoiler-container">
+                <div>一个只能被 <img src="../../WikiImagePack/otherimg/slugcats/Enot head 24x.png">??? 找到的子区域，除了一个死胡同之外毫无特色，有一些描绘更多蛞蝓猫小队 (More slug cats team) 的涂鸦。</div>
+                <div id="spoilerend" class="spoilerwarning">
+                    剧透结束。
+                    <img src="../../WikiImagePack/otherimg/webstuff/Slugcat thumbsup left.png">
+                </div>
+            </div>
+        </div>
+
+        <div id="gallery" class="container">
+            <div class="blocktitle">画廊</div>
+            <div>什么，你竟然什么都没有画？</div>
+        </div>
+
+        <div id="unlocks" class="container">
+            <div class="blocktitle">竞技场模式的解锁要素</div>
+            <div id="slugexclusive">
+                <div class="slug-exclusive">
+                    <img src="../../WikiImagePack/otherimg/slugcats/Monk Head.png">
+                    <b>&nbsp;-&nbsp;僧侣&nbsp;</b>独家
+                </div>
+                <div class="slug-exclusive">
+                    <img src="../../WikiImagePack/otherimg/slugcats/Survivor Head.png">
+                    <b>&nbsp;-&nbsp;求生者&nbsp;</b>独家
+                </div>
+                <div class="slug-exclusive">
+                    <img src="../../WikiImagePack/otherimg/slugcats/Hunter Head.png">
+                    <b>&nbsp;-&nbsp;猎手&nbsp;</b>独家
+                </div>
+                <div class="slug-exclusive">
+                    <img src="../../WikiImagePack/otherimg/slugcats/Gourmand Head.png">
+                    <b>&nbsp;-&nbsp;饕餮&nbsp;</b>独家
+                </div>
+                <div class="slug-exclusive">
+                    <img src="../../WikiImagePack/otherimg/slugcats/Artificer Head.png">
+                    <b>&nbsp;-&nbsp;工匠&nbsp;</b>独家
+                </div>
+                <div class="slug-exclusive">
+                    <img src="../../WikiImagePack/otherimg/slugcats/Rivulet Head.png">
+                    <b>&nbsp;-&nbsp;溪流&nbsp;</b>独家
+                </div>
+                <div class="slug-exclusive">
+                    <img src="../../WikiImagePack/otherimg/slugcats/Spearmaster Head.png">
+                    <b>&nbsp;-&nbsp;圣徒&nbsp;</b>独家
+                </div>
+                <div class="slug-exclusive">
+                    <img src="../../WikiImagePack/otherimg/slugcats/Saint Head.png">
+                    <b>&nbsp;-&nbsp;僧侣&nbsp;</b>独家
+                </div>
+            </div>
+            <table id="unlocktable">
+                <tr>
+                    <td class="tabletitle">地点</td>
+                    <td class="tabletitle">解锁要素</td>
+                </tr>
+                <tr>
+                    <td class="tabletitle">管道堆场</td>
+                    <td>
+                        <table id="unlocktable-inner">
+                            <tr>
+                                <td class="tablethings">
+                                    <div class="inlineimage">
+                                        <img src="../../WikiImagePack/otherimg/unlocks/Arena creature unlock.png">
+                                    </div>
+                                    <div class="inlineimage">
+                                        生物
+                                    </div>
+                                </td>
+                                <td class="tablethings">
+                                    <div class="inlineimage">
+                                        <img src="../../WikiImagePack/otherimg/creatures/Strawberry Lizard icon.png">
+                                    </div>
+                                    <div class="inlineimage">
+                                        草莓蜥蜴&nbsp;-
+                                    </div>
+                                    <div class="inlineimage">
+                                        <img src="../../WikiImagePack/otherimg/slugcats/Saint Head.png">
+                                    </div><br/>
+                                    <div class="inlineimage">
+                                        <img src="../../WikiImagePack/otherimg/creatures/Eel Lizard icon.png">
+                                    </div>
+                                    <div class="inlineimage">
+                                        鳗鱼蜥蜴&nbsp;-
+                                    </div>
+                                    <div class="inlineimage">
+                                        <img src="../../WikiImagePack/otherimg/slugcats/Rivulet Head.png">
+                                        <img src="../../WikiImagePack/otherimg/slugcats/Saint Head.png">
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="tablethings">
+                                    <div class="inlineimage">
+                                        <img src="../../WikiImagePack/otherimg/unlocks/Arena creature unlock.png">
+                                    </div>
+                                    <div class="inlineimage">
+                                        物品
+                                    </div>
+                                </td>
+                                <td class="tablethings">
+                                    <div class="inlineimage">
+                                        <img src="../../WikiImagePack/otherimg/items/Lilypuck icon.png">
+                                    </div>
+                                    <div class="inlineimage">
+                                        睡莲&nbsp;-
+                                    </div>
+                                    <div class="inlineimage">
+                                        <img src="../../WikiImagePack/otherimg/slugcats/Monk Head.png">
+                                        <img src="../../WikiImagePack/otherimg/slugcats/Survivor Head.png">
+                                        <img src="../../WikiImagePack/otherimg/slugcats/Hunter Head.png">
+                                        <img src="../../WikiImagePack/otherimg/slugcats/Gourmand Head.png">
+                                        <img src="../../WikiImagePack/otherimg/slugcats/Artificer Head.png">
+                                        <img src="../../WikiImagePack/otherimg/slugcats/Spearmaster Head.png">
+                                    </div><br/>
+                                    <div class="inlineimage">
+                                        <img src="../../WikiImagePack/otherimg/items/RWPearl.png">
+                                    </div>
+                                    <div class="inlineimage">
+                                        珍珠
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="tablethings">
+                                    <div class="inlineimage">
+                                        <img src="../../WikiImagePack/otherimg/unlocks/Arena map unlock.png">
+                                    </div>
+                                    <div class="inlineimage">
+                                        地图
+                                    </div>
+                                </td>
+                                <td class="tablethings">
+                                    <div class="inlineimage">
+                                        门架 · 高塔 (Gantry  •  Towering)<br/>
+                                         (译者没有看懂) 
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="tablethings">
+                                    <div class="inlineimage">
+                                        <img src="../../WikiImagePack/otherimg/unlocks/Arena map unlock.png">
+                                    </div>
+                                    <div class="inlineimage">
+                                        观览区域
+                                    </div>
+                                </td>
+                                <td class="tablethings">
+                                    <div class="inlineimage">
+                                        管道堆场
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            
+        </div>
+
+        <div id="trivia" class="container">
+            <div class="blocktitle">趣闻</div>
+            <div>
+                <ol class="interest">
+                    <li>
+                        管道堆场在游戏文件中的缩写是VS，代表着废弃地下 (Voided Subterranean)。
+                    </li>
+                    <li>
+                        在污水坑道子区域播放的歌曲 Veiled Northstar，是AGJ专辑中的一首未使用的歌曲的混音，其名称为 SubSubSub。
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+        <div id="maps" class="container">
+            <div class="blocktitle">地图</div>
+            <div class="subtitle">图形化地图</div>
+            <a href="#" class="thumbnail">
+                <img alt="Littlemap" src="../../WikiImagePack/otherimg/maps/Map_VS.png" style="width: 100%;">
+            </a>
+            <div class="full-image" style="display:none;">
+                <img src="../../WikiImagePack/otherimg/maps/Map_VS.png">
+            </div>
+            <div class="subtitle">交互地图</div>
+            <div>
+                <a href="https://rain-world-map.github.io/map.html?slugcat=white&region=VS">交互地图由 Dual 移植，由 Henpemaz 原创。</a>
+            </div>
+        </div>
+        
+        <script>
+            
+            const spoilerToggle = document.querySelector('.spoiler-toggle');
+            const spoilerContent = document.querySelector('.detailstable');
+
+            spoilerToggle.addEventListener('click', function(e) {
+                e.preventDefault();
+                if (spoilerToggle.innerHTML === "↓" ) {
+                    spoilerContent.classList.toggle('show');
+                    spoilerToggle.innerHTML = "↑"
+                } else {
+                    spoilerContent.classList.toggle('show');
+                    spoilerToggle.innerHTML = "↓"
+                }
+            });
+
+            const spoilerToggle2 = document.querySelector('.spoiler-toggle2');
+            const spoilerContent2 = document.querySelector('.spoiler-container');
+
+            spoilerToggle2.addEventListener('click', function(e) {
+                e.preventDefault();
+                if (spoilerToggle2.innerHTML === "展开" ) {
+                    spoilerContent2.classList.toggle('show');
+                    spoilerToggle2.innerHTML = "折叠"
+                } else {
+                    spoilerContent2.classList.toggle('show');
+                    spoilerToggle2.innerHTML = "展开"
+                }
+            });
+
+            $(document).ready(function() {
+                $('.thumbnail').magnificPopup({
+                        type:'image',
+                        gallery: {
+                            enabled: true
+                        }
+                    }); 
+            });
+
+
+        </script>
+    </div>
+</body>
